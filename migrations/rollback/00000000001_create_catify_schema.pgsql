@@ -1,0 +1,3 @@
+
+drop schema catify; 
+
