@@ -1,5 +1,5 @@
 create table catify.users(
-  id serial,
+  id serial primary key,
   email varchar unique not null,
   account_type varchar,
   access_token varchar,
