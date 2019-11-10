@@ -9,8 +9,9 @@ DB_USER = os.environ['DB_USER']
 DB_PASS = os.environ['DB_PASS']
 DB_HOST = os.environ['DB_HOST']
 DB_PORT = os.environ['DB_PORT']
+DB_MIGRATION_PATH = os.environ['DB_MIGRATION_PATH']
 
-migrations_dir_path = "/home/max/db/migrations"
+migrations_dir_path = DB_MIGRATION_PATH
 rollback_dir_path = os.path.join(migrations_dir_path, 'rollback')
 rollback_dir = os.fsencode(rollback_dir_path)
 
